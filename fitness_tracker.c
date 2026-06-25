@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+void fitness();
+
 // Define the maximum number of activities and length of activity names
 #define MAX_ACTIVITIES 100
 #define MAX_NAME_LEN 50
@@ -116,5 +118,5 @@ int main() {
                 printf("Invalid choice. Please try again.\n");
         }
     }
-    return 0;
+//    return 0;
 }
